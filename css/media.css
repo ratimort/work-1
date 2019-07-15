@@ -1,0 +1,614 @@
+/*==========  Desktop First  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1199px) {
+.header .row .top .item-left .text {
+	padding: 20px 0 20px 15px;
+}
+.header .row .top .item-left .logo {
+	padding: 18px;
+}
+.header .row .top .item-left .text h2 {
+	font-size: 17px;
+}
+.header .row .top .item-right ul li {
+	font-size: 15px;
+	margin-left: 20px;
+	padding: 21px 0;
+}
+.header .row .center .text h1 {
+	font-size: 30px;
+}
+.header .row .center .form .item h2 {
+	font-size: 15px;
+}
+.header .row .center .form .item {
+	padding: 35px 20px;
+}
+.header .row .center .text span {
+	font-size: 15px;
+}
+.header .row .center .text ul li {
+	font-size: 15px;
+}
+/*.features .container .item img {
+	padding: 60px 120px 20px 120px 
+}
+.features .container .item .circle {
+	margin: 60px 120px 20px 120px;
+	height: 83.328px;
+	width: 83.328px;
+}*/
+.features .container .item .circle h1 {
+	/*font-size: 30px;*/
+	/*padding: 17px 0;*/
+}
+.form-1 .container .text h1 {
+	padding-right: 38px;
+}
+/*.guarantees .container .info img {
+	bottom: 115px;
+}*/
+/*.guarantees .container .info h1 {
+	margin: 30px 15px;
+}*/
+.scroll-menu .top .item-right ul li {
+	font-size: 15px;
+	margin-left: 20px;
+	padding: 21px 0;
+}
+.scroll-menu .top .item-left .text h2 {
+	font-size: 17px;
+}
+.scroll-menu .top .item-left .logo {
+	padding: 18px;
+}
+}
+
+@media only screen and (max-width: 1190px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 1024px) {
+
+}
+@media only screen and (max-width: 991px) {
+.header {
+	height: 100%;
+}
+.header .row .center {
+	top: inherit;
+	margin: 120px 0;
+}
+.header .row .center .text h1 {
+	font-size: 22px;
+	line-height: 40px;
+	margin: 0 0 20px 0;
+}
+.header .row .center .text span {
+	font-size: 15px;
+	margin: 0 25px 35px 0;
+}
+.header .row .center .text ul li {
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+.header .row .center .form .item h3 {
+	font-size: 13px;
+}
+.header .row .center .form .item h2 {
+	margin-bottom: 20px;
+}
+.header .row .center .form .item a {
+	font-size: 15px;
+}
+.header .row .center .form .item input {
+	margin-bottom: 20px;
+}
+.scroll-menu {
+	background-color: rgba(18, 27, 116, 0.9);
+	top: 0!important;
+	border-bottom: 0.5px solid #696969;
+}
+.scroll-menu .top .item-right .button {
+	display: block;
+}
+.features .container h1 {
+	font-size: 22px;
+}
+.features .container h2 {
+	font-size: 17px;
+}
+.features .container .item h2 {
+	font-size: 17px;
+}
+.features .container .item p {
+	font-size: 15px;
+}
+/*.features .container .item img {
+	padding: 50px 140px 15px 140px 
+}*/
+/*.features .container .item .circle {
+	margin: 50px 140px 15px 140px;
+	width: 95px;
+	height: 95px;
+}*/
+.features .container .item .circle h1 {
+	padding: 31px 0;
+}
+.features .container .item p {
+	height: 36px;
+}
+.price .container h1 {
+	font-size: 22px;
+}
+.price .container h2 {
+	font-size: 17px;
+}
+.price .container .text h2 {
+	font-size: 17px;
+	padding-left: 25px;
+} 
+.price .container .circle h1 {
+	padding: 25px 0;
+}
+.price .container .text {
+	padding: 28px 0;
+}
+.form-1 .container .f-item h2 {
+	font-size: 13px;
+}
+.features-2 .container h1 {
+	font-size: 22px;
+}
+.features-2 .container h2 {
+	font-size: 17px;
+}
+.features-2 .container .left .img, .features-2 .container .right .img {
+	width: 110px;
+	height: 110px;
+}
+.features-2 .container .left .text, .features-2 .container .right .text {
+	padding: 13px 0 13px 20px;
+}
+.features-2 .container .left .text h2, .features-2 .container .right .text h2 {
+	font-size: 15px;
+}
+.features-2 .container .left .text p, .features-2 .container .right .text p {
+	font-size: 14px;
+}
+.features-2 .container .left .text h3, .features-2 .container .right .text h3 {
+	font-size: 13px;
+}
+.features-2 .container .left .text a, .features-2 .container .right .text a {
+	font-size: 13px;
+}
+.features-2 .container .left .text, .features-2 .container .right .text {
+	padding: 2px 0 2px 25px;
+}
+.stages .container h1 {
+	font-size: 22px;
+}
+.stages .container .text h2 {
+	font-size: 17px;
+}
+.stages .container .text {
+	padding: 17px 0;
+}
+.stages .container .text h3 {
+	font-size: 15px;
+}
+.guarantees .container h1 {
+	font-size: 22px;
+}
+.guarantees .container h2 {
+	font-size: 17px;
+}
+.guarantees .container .text h2 {
+	font-size: 17px;
+}
+.guarantees .container .text p {
+	font-size: 13px;
+}
+/*.guarantees .container .info img {
+	bottom: 85px;
+}*/
+.question .container h1 {
+	font-size: 22px;
+}
+.question .container .text p {
+	font-size: 14px;
+}
+/*.question .container .text h2 {
+	padding: 25px 0 10px
+}*/
+.question .container .item h2 {
+	font-size: 17px;
+}
+.question .container .item h3 {
+	font-size: 15px;
+}
+.question .container .item .img {
+	width: 180px;
+	height: 180px;
+	margin: 30px 0 20px
+}
+.question .container .item {
+	margin: 50px 0 0;
+}
+.contact .container h1 {
+	font-size: 22px;
+}
+.contact .container h2 {
+	font-size: 17px;
+}
+.contact .container .col-md-4 h2 {
+	font-size: 15px;
+}
+.slide-question .item .left h2, .slide-question .item .bottom h2 {
+	font-size: 13px;
+}
+.slide-question .item .right button {
+	font-size: 15px;
+}
+.item-fade .info .form button {
+	font-size: 15px;
+}
+.slide-question .item .right h2 {
+	font-size: 13px;
+}
+}
+
+@media only screen and (max-width: 823px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {
+.header .row .top .item-left .logo {
+	padding: 14px;
+}
+.features-2 .container h1 {
+	font-size: 20px;
+}
+.features-2 .container .left .item, .features-2 .container .right .item {
+	padding: 0 0 40px;
+}
+.features-2 .container .left, .features-2 .container .right {
+	padding: 50px 0 10px;
+}
+.features-2 .container .right {
+	padding: 0;
+}
+.form-1 .container .text h1 {
+	font-size: 20px;
+	line-height: 35px;
+}
+.header .container {
+	padding: 0 15px!important;
+}
+.features .container {
+	padding: 0 15px!important;
+}
+.price .container {
+	padding: 0 15px!important;
+}
+.form-1 .container {
+	padding: 0 15px!important;
+}
+.features-2 .container {
+	padding: 0 15px!important;
+}
+.stages .container {
+	padding: 0 15px!important;
+}
+.guarantees .container {
+	padding: 0 15px!important;
+}
+.question .container {
+	padding: 0 15px!important;
+}
+.contact .container {
+	padding: 0 15px!important;
+}
+.scroll-menu .container {
+	padding: 0 15px!important;
+}
+.header .row .center .form {
+	padding: 0 0px 0 0;
+}
+.header .row .center .text ul li {
+	width: 100%;
+}
+.header .row .center {
+	margin: 100px 0; 
+}
+.features .container h1 {
+	font-size: 20px;
+}
+.features .container .item p {
+	padding: 0;
+}
+/*.features .container h2 {
+	font-size: 15px;
+}*/
+.price .container h1 {
+	font-size: 20px;
+}
+/*.price .container h2 {
+	font-size: 15px;
+}*/
+.price .container .circle {
+	width: 70px;
+	height: 70px;
+}
+.price .container .circle h1 {
+	padding: 21px 0;
+}
+.price .container .text {
+	padding: 24px 0;
+}
+.price .container .text h2 {
+	font-size: 15px;
+	padding-left: 20px;
+} 
+.form-1 .container .f-item button {
+	font-size: 15px;
+}
+
+.form-1 {
+	padding: 50px 0;
+}
+/*.features-2 .container h2 {
+	font-size: 15px;
+}*/
+.features-2 .container .left .text a, .features-2 .container .right .text a {
+	padding: 5px 10px;
+}
+.stages .container h1 {
+	font-size: 20px;
+}
+.stages .container .text h2 {
+	font-size: 15px;
+}
+.stages .container .text h3 {
+	font-size: 13px;
+}
+.stages .container .text {
+	padding: 10px 0;
+}
+.stages .container .item {
+	padding: 30px 0;
+}
+.form-2 .container .f-item {
+	padding: 10px 0;
+}
+/*.guarantees .container h2 {
+	font-size: 15px;
+}*/
+.guarantees .container .text h2 {
+	/*font-size: 15px;*/
+	margin-bottom: 8px;
+}
+.guarantees .container .info h1 {
+	font-size: 18px;
+}
+.contact .container .f-item {
+	margin: inherit;
+}
+.contact .container .col-md-4 {
+	margin: 10px 0
+}
+.scroll-menu .top .item-left .logo {
+	padding: 14px;
+}
+.scroll-menu .top .item-right .button .click-on {
+	margin: 16px 0;
+}
+.slide-question {
+	padding: 0 20px;
+}
+.slide-question .close-1 {
+	display: none;
+}
+.slide-question .close-2 {
+	display: block;
+}
+.slide-question .close-2 {
+	top: 10px;
+	right: 10px;
+}
+.slide-question .close-1 .line-1, .slide-question .close-1 .line-2, .slide-question .close-2 .line-1, .slide-question .close-2 .line-2 {
+	width: 20px;
+	background-color: #111;
+}
+.slide-question .item .left {
+	padding: 0;
+}
+.slide-question .item .right {
+	padding: 0;
+}
+}
+
+@media only screen and (max-width: 736px) {
+
+
+}
+
+@media only screen and (max-width: 667px) {
+
+}
+
+@media only screen and (max-width: 650px) {
+
+}
+
+@media only screen and (max-width: 600px) {
+
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 570px) {
+.price .container .text {
+	padding: 14px 0;
+}
+.features-2 .container .left .img, .features-2 .container .right .img {
+	width: 90px;
+	height: 90px;
+}
+.guarantees .container .circle {
+	width: 80px;
+	height: 80px;
+}
+.item-fade .close-1 {
+	display: none;
+}
+.item-fade .close-2 {
+	display: block;
+}
+.item-fade .close-2 {
+	top: 10px;
+	right: 10px;
+}
+.item-fade .close-2 .line-1, .item-fade .close-2 .line-2 {
+	width: 20px;
+	background-color: #111;
+}
+}
+@media only screen and (max-width: 455px) {
+.header .row .center .text span {
+	margin: 0 25px 20px 0;
+}
+.item-fade {
+	padding: 0 20px;
+}
+.item-fade .info {
+	width: 100%;
+	padding: 30px 0px;
+	top: 10%;
+}
+.item-fade .info .form h2 {
+	font-size: 13px;
+}
+.item-fade .info .theme .img {
+	width: 70px;
+	height: 70px;
+}
+.item-fade .info .theme {
+	height: 111px;
+}
+.item-fade .info .theme .text h2 {
+	font-size: 15px;
+	padding: 23px 0;
+	padding-left: 15px;
+}
+.item-fade .info .form {
+	padding: 0 10px;
+}
+.slide-question .item h2 {
+	font-size: 15px;
+}
+.slide-question .item h3 {
+	font-size: 15px;
+}
+.item-fade .info h2 {
+	font-size: 17px;
+}
+}
+
+@media only screen and (max-width: 519px) {
+.stages .container .text {
+	padding: 0px 0;
+}
+}
+
+@media only screen and (max-width: 380px) {
+.form-1 .container .text h1 {
+	font-size: 18px;
+	line-height: 30px;
+}
+.stages .container .circle {
+	width: 70px;
+	height: 70px;
+}
+/*.stages .container .text {
+	padding: 5px 0;
+}*/
+.stages .container .text h2 {
+	padding-left: 20px;
+}
+.stages .container .text h3 {
+	padding-left: 20px;
+}
+.guarantees .container .circle {
+	width: 70px;
+	height: 70px;
+}
+.guarantees .container .text h2 {
+	padding-left: 10px;
+}
+.guarantees .container .text p {
+	padding-left: 10px;
+}
+/*.guarantees .container .info img {
+	bottom: 135px;
+}*/
+.question .container .text img {
+	width: 20px;
+}
+.question .container .text p {
+	padding: 0 0 25px 0;
+}
+/*.question .container .text h2 {
+	font-size: 15px;
+}*/
+.item-fade .info .theme .text {
+	width: 190px;
+}
+.item-fade .info .theme .text h2 {
+	padding: 14px 0;
+	padding-left: 15px;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+
+}
+
+/*==========  Mobile First  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+.item-fade .info {
+	top: 2%;
+}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+
+  /**/ }
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+
+}
+
+@media only screen and (min-width: 1600px) {
+
+}
+@media only screen and (min-width: 1800px) {
+
+}
+@media only screen and (min-width: 2300px) {
+
+}

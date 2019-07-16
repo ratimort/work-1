@@ -944,7 +944,8 @@ svg {
       .item-fade .info .form h3 {
         font-size: 15px;
         color: #929292;
-        padding: 10px 0 10px; }
+        padding: 10px 0 10px;
+        font-weight: 400;}
       .item-fade .info .form h2 {
         font-size: 15px;
         font-weight: 400;

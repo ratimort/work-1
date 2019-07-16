@@ -937,7 +937,8 @@ svg {
       text-align: center;
       font-weight: 400;
       font-size: 18px;
-      padding-bottom: 0px; }
+      padding-bottom: 0px;
+      padding-bottom: 15px; }
     .item-fade .info .form {
       display: block; }
       .item-fade .info .form h3 {
